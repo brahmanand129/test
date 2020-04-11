@@ -1,0 +1,68 @@
+.page
+{
+width:1200px;
+height:auto;
+border-style:groove;
+}
+.headerpart
+{
+width:1200px;
+height:250px;
+border-style:groove;
+background-color:rgb(100,12,192);
+background-image:url('lpu2.jpg');
+background-repeat:repeat;
+}
+.linkspart
+{width:1200px;
+height:30px;
+margin-top:5px;
+background-color:rgb(90,80,800);
+border-style:groove;
+}
+
+.linkspart a
+{
+color:rgb(245,246,251);
+text-decoration:none;
+}
+.linkspart a:hover
+{
+background-color:rgb(245,246,251);
+color:rgb(100,12,192);
+}
+.bodypart
+{
+width:1200px;
+height:600px;
+border-style:groove;
+margin-top:5px;
+}
+.bodypart .imagepart
+{
+width:550px;
+height:300px;
+border-style:groove;
+
+background-image:url(' img.gif ');
+display:inline-block;
+}
+.bodypart .newspart
+{
+width:350px;
+height:580px;
+border-style:groove;
+float:right;
+
+}
+.bodypart .newspart h2
+{
+color:red;
+margin-left:70px;
+}
+.bodypart .newspart .news
+{
+width:330px;
+height:500px;
+border-style:groove;
+}
